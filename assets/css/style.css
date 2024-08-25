@@ -29,7 +29,8 @@ body {
     /* background: red; */
 }
 .header__a {
-    background: #fff;
+    background: #FFF5E4;
+    /* background: #E1D7B7; */
     width: 12.5rem;
     height: 12.5rem;
     margin: auto;
@@ -65,7 +66,7 @@ body {
 .section__a {
     width: 2.1875rem;
     height: 2.1875rem;
-    background: #fff;
+    background: #FFF5E4;
     color: aqua;
     border-radius: 5px;
     border: 3px solid aqua;
