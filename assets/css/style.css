@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    color: red;
+    background-color: lightgray;
+    height: 100vh;
+    background-color: #1E201E;
+    /* background-image: url(../img/montana/montanas-fantasticas-arte-digital_1280x720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Bebas Neue", sans-serif;
+    /* filter: invert(100%); */
+}
+.container {
+    /* background-color: aqua; */
+    width: 18.75rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header {
+    /* width: 100%; */
+    height: 12.5rem;
+    /* background: red; */
+}
+.header__a {
+    background: #fff;
+    width: 12.5rem;
+    height: 12.5rem;
+    margin: auto;
+    border-radius: 50%;
+    border: 3px solid aqua;
+    
+}
+.header__img {
+    height: 100%;    
+}
+.section {
+    /* background: gray; */
+    width: 100%;
+    height: 12.5rem;
+    margin: 0 auto;
+}
+.section__h2 {
+    text-align: center;
+    line-height: 2;
+    margin: 1.5rem;
+    /* background: orangered; */
+    font-size: 24px;
+    color: aqua;
+}
+.section__link {
+    text-align: center;
+    /* background: yellow; */
+    display: flex;
+    justify-content: center;
+    gap: 1.25rem;
+}
+
+.section__a {
+    width: 2.1875rem;
+    height: 2.1875rem;
+    background: #fff;
+    color: aqua;
+    border-radius: 5px;
+    border: 3px solid aqua;
+    padding: 5px;
+    border-radius: 50%;
+}
+.section__img {
+    width: 100%;
+    height: 100%;
+}
